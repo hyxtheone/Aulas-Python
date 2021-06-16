@@ -1,0 +1,5 @@
+num = float(input('Digite um número: '))
+num2 = float(input('Digite outro número: '))
+num3 = float(input('Digite mais um número: '))
+print(f'O maior valor digitado é: {max(num, num2, num3):.2f}')
+print(f'O menor valor digitado é: {min(num, num2, num3):.2f}')
